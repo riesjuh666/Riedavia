@@ -1,41 +1,45 @@
 {
-    "server_name": "Riedavia",
-    "current_version": "1.0.0",
-    "description": "Latest game client - New monsters, quests, and balance changes!",
+    "server_name": "Lunaria OT",
+    "current_version": "1.4",
+    "description": "Tibia Test Client Configuration",
     
-    "github_username": "riesjuh666",
-    "github_repository": "Riedavia", 
-    "client_zip_filename": "https://github.com/riesjuh666/Riedavia/releases/tag/v1.0.0",
-    "auto_install_updates": false, 
+    "github_username": "hecmo94",
+    "github_repository": "testclient", 
+    "client_zip_filename": "client.zip",
+    "auto_install_updates": false,
     
     "enable_auto_update": true,
     "auto_install_launcher_updates": false,
-    "launcher_github_username": "riesjuh666",
+    "launcher_github_username": "hecmo94",
     "launcher_github_repository": "tibialauncher",
     "current_launcher_version": "2.0.0",
+    "launcher_download_url": "https://lunariaot.com/lunarialauncher.exe",
     
     "protected_folders": [
         "minimap",
         "conf", 
-        "characterdata",
-        "screenshots"
+        "characterdata"
     ],
     
-    "enable_minimap_downloads": false,
-    "custom_minimaps": {
-        "Full World Map": "https://github.com/example-user/tibia-client/releases/download/maps/worldmap.zip",
-        "PvP Areas": "https://github.com/example-user/tibia-client/releases/download/maps/pvp.zip"
+    "enable_minimap_downloads": true,
+    "custom_minimaps": {},
+
+    "highscores_url": "https://lunaria-ot.com/?highscores/experience",
+    "highscores_json": null,
+    "highscores_selectors": {
+        "container_selector": "table.TableContent",
+        "row_selector": "tbody tr:not(.LabelH)",
+        "name_selector": "td:nth-child(3) a span, td:nth-child(3) a, td:nth-child(3)",
+        "level_selector": "td:nth-last-child(2)",
+        "outfit_selector": "td:nth-child(2) img",
+        "outfit_attr": "src"
     },
     
     "check_for_updates_on_startup": true,
     "show_changelog": true,
-    "backup_before_update": true
-
+    "backup_before_update": true,
+    "version": "1.4",
+    "download_link": "https://github.com/hecmo94/testclient/releases/download/1.3/client.zip",
+    "release_tag": "1.3",
+    "zip_file": "client.zip"
 }
-
-
-
-
-
-
-
