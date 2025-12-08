@@ -21,7 +21,7 @@
         "screenshots"
     ],
     
-    "enable_minimap_downloads": true,
+    "enable_minimap_downloads": false,
     "custom_minimaps": {
         "Full World Map": "https://github.com/example-user/tibia-client/releases/download/maps/worldmap.zip",
         "PvP Areas": "https://github.com/example-user/tibia-client/releases/download/maps/pvp.zip"
@@ -32,5 +32,6 @@
     "backup_before_update": true
 
 }
+
 
 
