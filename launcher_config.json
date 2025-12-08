@@ -5,7 +5,7 @@
     
     "github_username": "riesjuh666",
     "github_repository": "Riedavia", 
-    "client_zip_filename": "riedavia-client.zip",
+    "client_zip_filename": "Riedavia-Client.zip",
     "auto_install_updates": false,
     
     "enable_auto_update": true,
@@ -32,4 +32,5 @@
     "backup_before_update": true
 
 }
+
 
